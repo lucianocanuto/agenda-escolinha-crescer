@@ -13,7 +13,26 @@
         android:theme="@style/Theme.AgendaEscolinhaCrescer"
         tools:targetApi="31">
         <activity
+            android:name=".MensagensActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EventosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListaCriancasActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".LoginResponsavelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginProfessorActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BoasVindasActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
