@@ -44,6 +44,7 @@ class LoginProfessorActivity : AppCompatActivity() {
                 }
                 .addOnFailureListener {
                     Toast.makeText(this, "Erro no login: ${it.message}", Toast.LENGTH_SHORT).show()
+                    finish()
                 }
 
 

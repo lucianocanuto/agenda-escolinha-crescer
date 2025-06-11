@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AgendaEscolinhaCrescer"
         tools:targetApi="31">
         <activity
+            android:name=".CadastroProfessorActivity"
+            android:exported="false" />
+        <activity
             android:name=".MensagensActivity"
             android:exported="false" />
         <activity
@@ -21,7 +24,6 @@
         <activity
             android:name=".ListaCriancasActivity"
             android:exported="false" />
-
         <activity
             android:name=".LoginResponsavelActivity"
             android:exported="false" />
